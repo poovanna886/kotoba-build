@@ -1,0 +1,82 @@
+form{
+    margin-top: 20px;
+    width: 500px;
+}
+
+.addWords > :nth-child(1){
+    color: gray;
+    font-weight: 600;
+} 
+
+.new-word {
+    margin: 20px;
+}
+
+
+.new-word > span {
+    font-size: large;
+    font-weight:bolder;
+    margin-bottom: 100px;
+}
+
+.new-word > input {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px
+}
+
+.new-type{
+    margin: 30px;
+}
+
+.new-type > span {
+    font-size:large;
+    margin-bottom: 20px;
+    font-weight:bolder;
+}
+
+
+.new-type > select {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px
+}
+
+.pronunciation{
+    margin: 30px;
+}
+
+.pronunciation > span {
+    font-size:large;
+    margin-bottom: 20px;
+    font-weight:bolder;
+}
+
+.pronunciation > input {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.translation{
+    margin: 30px;
+}
+
+.translation > span {
+    font-size:large;
+    font-weight:bolder;
+}
+
+
+.translation > input{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px
+}
+
+button {
+    font-size: large;
+    font-weight: 600;
+    height: 50px;
+    width: 70px;
+}

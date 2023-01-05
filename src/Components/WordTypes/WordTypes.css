@@ -1,0 +1,41 @@
+.wordtypes{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 10px;
+    
+ 
+
+}
+.filter{
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    left:-50px;
+}
+
+.types{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.typeList {
+    display: flex;
+    color: orange;
+    flex :1;
+    justify-content: space-between;
+    width: auto;
+    padding: 20px;
+}
+
+.active {
+    color: black;
+    background-color: yellow;
+    display: flex;
+    flex :1;
+    justify-content: space-between;
+    width: auto;
+    padding: 20px;
+    border-radius: 20px;
+    
+}

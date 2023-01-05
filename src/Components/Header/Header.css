@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: yellowgreen;
+    height: 75px;
+}
+
+
+.title{
+    color: yellow;
+    font-size: 40px;
+    font-weight: 600;
+    padding : 30px;
+    
+}
+
+.right{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.right > div {
+    margin-right: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}

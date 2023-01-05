@@ -1,0 +1,72 @@
+[
+    {
+        "japaneseWord": "コーヒー",
+        "englishWord": "coffee",
+        "type": "n.",
+        "pronunciation": "Kōhī" 
+
+    },
+    {
+        "japaneseWord": "猫",
+        "englishWord": "cat",
+        "type": "n.",
+        "pronunciation": "Neko"
+
+    },
+    {
+        "japaneseWord": "今日",
+        "englishWord": "today",
+        "type": "n.",
+        "pronunciation": "Kyō"
+
+    },
+    {
+        "japaneseWord": "番号",
+        "englishWord": "number",
+        "type": "n.",
+        "pronunciation": "Bangō"
+
+    },
+    {
+        "japaneseWord": "本",
+        "englishWord": "book",
+        "type": "n.",
+        "pronunciation": "Hon"
+
+    },
+    {
+        "japaneseWord": "お父さん",
+        "englishWord": "father",
+        "type": "n.",
+        "pronunciation": "Otōsan"
+
+    },
+    {
+        "japaneseWord": "母親",
+        "englishWord": "mother",
+        "type": "n.",
+        "pronunciation": "Hahaoya"
+
+    },
+    {
+        "japaneseWord": "兄弟",
+        "englishWord": "brother",
+        "type": "n.",
+        "pronunciation": "Kyōdai"
+
+    },
+    {
+        "japaneseWord": "さようなら",
+        "englishWord": "goodbye",
+        "type": "greeeting.",
+        "pronunciation": "Sayōnara"
+
+    },
+    {
+        "japaneseWord": "とても良い",
+        "englishWord": "very good",
+        "type": "phrase.",
+        "pronunciation": "Totemo yoi"
+
+    }
+]

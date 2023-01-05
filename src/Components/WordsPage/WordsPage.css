@@ -1,0 +1,93 @@
+.mainPage{
+       
+    width: 100%; 
+    margin-left: 20px; 
+    margin-top: 20px;  
+}
+
+.pageHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.pageHeader > span{
+    font-size: 1.5rem;
+}
+
+.pageHeader >  div > label {
+    font-size: 1.2rem;
+}
+
+.pageHeader >  div > select {
+   height: 45px;
+   width: 120px;
+   background-color: white;
+   border-radius: 3px;
+   outline: none;
+   
+
+}
+
+.wordsPage{
+     
+    width: 100%; 
+    margin-left: 20px; 
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+}
+ 
+.left-column {
+    margin-bottom: 30px;
+    
+}
+
+.right-column > *{
+    margin-bottom: 30px;
+} 
+
+.row-item{
+    margin-bottom: 30px;
+}
+
+.top-row {
+    display: flex;
+    align-items: center;
+    
+}
+.top-row > * {
+    margin-right: 10px;
+    
+    font-size: 1.5rem;
+    
+}
+.top-row > :nth-child(2) {
+    color: orange;
+    height: 20px;
+}
+
+.top-row > :nth-child(4){
+    color: gray;
+    font-size: 1rem;
+    
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.bottom-row > span {
+    justify-content:left;
+    padding: 5px;
+    background-color: lightgray;
+    background-size: auto;
+    color: black;
+}
+
+.icons > * {
+    margin-right: 10px;
+}

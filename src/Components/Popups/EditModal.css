@@ -1,0 +1,48 @@
+
+.popup-header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.first-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    
+}
+
+.first-row > div {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin:20px;
+}
+.second-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+
+}
+
+.second-row > div {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 1.5rem;
+    
+}
+.second-row > div > select {
+    height: 100%;
+    width: 100%;
+}
+
+.second-row > :nth-child(1){
+    border: none;
+}
+
+button{  
+    margin: 20px;
+}

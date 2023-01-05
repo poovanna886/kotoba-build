@@ -1,0 +1,22 @@
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons > * {
+    height: 30px;
+    width: 30px;
+}
+
+.social-icons > :nth-child(1){
+    color: #3b5998;
+}
+
+.social-icons > :nth-child(2){
+    color:  rgb(37, 211, 102);
+}
+
+
+.social-icons > :nth-child(3){
+    color:  rgb(29,161, 242);
+}
