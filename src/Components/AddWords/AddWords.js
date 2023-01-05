@@ -2,20 +2,24 @@ import React from 'react'
 import './AddWords.css'
 import { useForm } from "react-hook-form";
 import dbData from '../../assets/testdb'
+import { useDispatch } from 'react-redux';
 
-
+import { addNewWord } from '../../counterSlice'
 
 const AddWords = (props) => {
-  const {words, setAppendWords} = props
+  const dispatch = useDispatch()
+  const words= props
 
+  //const [appendWords, setAppendWords] = useState({})
 
   const { register, handleSubmit , reset, formState, submittedData} = useForm();
   const onSubmit = (data, e) => {
     console.log('in add word')
     console.log(data);
-    words.push(data);
+    //words.push(data);
     //setNewWord(words.push(data))
-    setAppendWords(words)
+    //setAppendWords(data)
+    dispatch(addNewWord(data))
     console.log(words.length)
     console.log(typeof(words))
     console.log(words)

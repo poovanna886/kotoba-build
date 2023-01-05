@@ -1,17 +1,23 @@
 
 import './App.css';
 import React, { useState } from 'react';
+import { useSelector } from 'react-redux'
+import { addNewWord, selectWords } from './counterSlice'
 import AddWords from './Components/AddWords/AddWords';
 import Header from './Components/Header/Header';
 import WordsPage from './Components/WordsPage/WordsPage';
 import WordTypes from './Components/WordTypes/WordTypes';
-import words from './assets/data';
+//import words from './assets/data';
 
 function App() {
   //const activeTab = 'All';
+  const words = useSelector(selectWords)
+  //console.log(words);
+ 
    const [activeTab, setactiveTab] = useState('All')
 
-  const [appendWords, setAppendWords] = useState(words)
+  
+
    //const [newWord , setNewWord] = useState({})
 //   words = words.pop()
 //  // words = words.map((word , index) => (word === {} ? words[index].pop(): null ));
@@ -26,15 +32,15 @@ function App() {
      <WordTypes  
         activeTab={activeTab}
         setactiveTab={setactiveTab} 
-        words={appendWords}
+        words={words}
         />
      <WordsPage 
         activeTab={activeTab}
-        words={appendWords}
+        words={words}
         />
     <AddWords 
-    words={appendWords}
-    setAppendWords={setAppendWords}/>  
+    words={words}
+    />  
     </div>
     </div>
   );
