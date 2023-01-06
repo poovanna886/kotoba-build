@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<img align="left" alt="main" src="https://github.com/poovanna886/kotoba-build/blob/master/src/assets/MainImage.png" />
+
 ## Available Scripts
 
 In the project directory, you can run:
