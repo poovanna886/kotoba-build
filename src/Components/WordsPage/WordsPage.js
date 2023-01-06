@@ -6,8 +6,8 @@ import { FiEdit, FiShare2 } from 'react-icons/fi'
 import { AiOutlineDelete } from 'react-icons/ai'
 import EditModal from '../Popups/EditModal';
 import SharePopup from '../Popups/SharePopup';
-import useSound from 'use-sound';
-import haram from '../../assets/audiotest.mp3';
+//import useSound from 'use-sound';
+//import haram from '../../assets/audiotest.mp3';
 
 const getWords = (activeTab, words) => {
 
@@ -36,7 +36,7 @@ const WordsPage = (props) => {
 
     const [openPopup, setOpenPopup] = useState(false)
     const [openSharePopup, setSharePopup] = useState(false)
-    const [play] = useSound(haram);
+    //const [play] = useSound(haram);
 
     return (
         <div className='mainPage'>
@@ -63,7 +63,7 @@ const WordsPage = (props) => {
                                 <div className='row-item' key={index}>
                                     <div className='top-row'>
                                         <div>{word.japaneseWord}</div>
-                                        <GoPlay onClick={play} /> 
+                                        <GoPlay /> 
                                         <div>{word.englishWord}</div>
 
                                         <div>{word.type}</div>
@@ -87,7 +87,7 @@ const WordsPage = (props) => {
                                 <div className='row-item' key={index}>
                                     <div className='top-row'>
                                         <div className='japaneseWord'>{word.japaneseWord}</div>
-                                         <GoPlay onClick={play} />
+                                         <GoPlay />
                                         <div>{word.englishWord}</div>
                                         <div>{word.type}</div>
                                     </div>
