@@ -10,7 +10,17 @@ export const counterSlice = createSlice({
     
     addNewWord: (state, action) => {
       state.value.push(action.payload)
-    }
+    },
+
+    removeWord: (state, action) => {
+       return{
+       ...state,
+       value: state.value.filter((item, index) => item.id != action.payload)
+       
+     }
+    //state.value.pop()
+   
+  }
   }
 })
 
@@ -18,6 +28,6 @@ export const selectWords = (state) => state.counter.value
 
 
 // Action creators are generated for each case reducer function
-export const { addNewWord } = counterSlice.actions
+export const { addNewWord, removeWord } = counterSlice.actions
 
 export default counterSlice.reducer

@@ -9,17 +9,27 @@ import { addNewWord } from '../../counterSlice'
 const AddWords = (props) => {
   const dispatch = useDispatch()
   const words= props
-
+ 
   //const [appendWords, setAppendWords] = useState({})
 
   const { register, handleSubmit , reset, formState, submittedData} = useForm();
   const onSubmit = (data, e) => {
     console.log('in add word')
-    console.log(data);
+    const wordId = words.words.length
+    console.log(wordId);
+    const newWord = {
+      id: wordId,
+      japaneseWord: data.japaneseWord,
+      englishWord: data.englishWord,
+      type: data.type,
+      pronunciation:data.pronunciation
+    }
+    console.log(newWord)
+    
     //words.push(data);
     //setNewWord(words.push(data))
     //setAppendWords(data)
-    dispatch(addNewWord(data))
+    dispatch(addNewWord(newWord))
     console.log(words.length)
     console.log(typeof(words))
     console.log(words)

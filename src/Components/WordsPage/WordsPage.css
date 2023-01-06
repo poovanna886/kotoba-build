@@ -38,6 +38,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;    
 }
+
+.empty-page{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+
+}
  
 .left-column {
     margin-bottom: 30px;
