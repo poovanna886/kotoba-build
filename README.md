@@ -1,4 +1,4 @@
 # kotoba-build
-Word tracker to learn the japanese language
+Personal log for tracking words in japanese as an english speaker
 
 Check the master branch for updates
